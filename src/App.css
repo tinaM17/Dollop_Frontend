@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 8rem;
+  height:8rem;
+}
+
+.featuredImg {
+  width: 500px;
+  object-fit: cover;
+}
+
+.reviewImg {
+  width: 250px;
+  object-fit: cover;
+}
+
+.featureImg {
+  width: 150px;
+  object-fit: cover;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.heroBold {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.demo {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.boldText {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.heroBoldText {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.feturedText {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.smallText {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.prefText {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.select{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.drop {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px solid #000;
+  position: absolute;
+  width: 250px;
+}
+
+.drop a{
+  text-decoration: none;
+  color: #666;
+  border-bottom: 1px solid #eee;
+  display:block;
+  padding-bottom: 5px;
+}
+
+h1.headline {
+  width: 80%;
+  padding-top: 10%;
+}
+
+p.bold {
+  padding-top: 25px;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+p.bold span{
+   color: blueviolet;
+}
+
+.d-flex.gap-3 button {
+  padding: 0 15px;
+  border-radius: 10px!important;
+  font-weight: 600;
+}
+
+p.info {
+  width: 85%;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.inputBox {
+  width: 100%;
+  background-color: #F5F5F5;
+  color: #008EBE;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.discuss {
+  width: 50%;
+}
+
+.registerBox {
+  width: 50%;
+  background-color: #F5F5F5;
+  color: #008EBE;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.prefBox {
+  width: 80%;
+  background-color: #F5F5F5;
+  color: #008EBE;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.heroRegisterBox {
+  width: 100%;
+  background-color: #F5F5F5;
+  color: #008EBE;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.heroRegister {
+  margin: 60px 0 0 0;
+}
+
+.preferences {
+  margin: 20px 0;
+}
+
+.prefHeader {
+   margin: 40px 0;
+}
+
+.joinButton {
+  width: 15%;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.inputBox::placeholder {
+  color: #008EBE; /* Change placeholder color to red */
+}
+
+.gradient{
+background: rgb(83,70,158);
+background: linear-gradient(150deg, rgba(83,70,158,1) 36%, rgba(176,155,186,1) 100%);
+margin: 40px 0;
+padding: 40px 0;
+color: #fff;
+}
+
+.alignC {
+  text-align: center;
+}
+.col-md-8.textInfo{
+  padding-top: 5%;
+}
+.textInfo p{
+  width: 73%;
+}
+
+.feature{
+  padding: 40px 0;
+}
+.feature h2 {
+  font-weight: bold;
+  margin-top: 37px;
+}
+
+/* .feature p{font-size: 28px;} */
+
+.feature .row{
+  margin-top: 35px;
+}
+
+.timeDetails{
+  color: #008EBE;
+}
+
+h1.title {
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+.subHeader {
+  padding: 0 0 30px 0;
+}
+.details{
+  padding-bottom: 35px;
+}
+.details p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+p.note {
+  font-size: 1.1rem;
+}
+
+.mt-4.invite button {
+  font-size: 19px;
+  padding: 15px 80px!important;
+  font-weight: 300;
+  border-radius: 8px!important;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.groups {
+  padding: 10px 25px;
+  border-radius: 10px!important;
+}
+
+.selectButtons {
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(150deg, #edfad6 40%, #e0f6f3 60%);
+  color: #008EBE;
+  /* border-color: #008EBE; */
+  border-radius: 25px;
+  /* width: 100%; */
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  cursor: pointer;
+  border: none;
+}
+
+.heroMeeting {
+  display: flex;
+  gap: 15px;
+}
+
+.toggle {
+  margin: 50px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.toggle p {
+  margin-top: 3px;
+}
+
+.toggle-switch {
+  width: 70px;
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.toggle-switch.on {
+  background-color: rgb(45, 237, 45);
+  justify-content: flex-end;
+}
+
+.toggle-switch.off {
+  background-color: rgb(171, 168, 168);
+  justify-content: flex-start;
+}
+
+.toggle-button {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s;
+  margin: 3px;
+}
+
+.footer h6 {
+  font-weight: bold;
+}
+
+.subFooter p {
+  font-size: 1.1rem;
+  padding: 0 0 60px 0;
+}
+
+.subSection p {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin: 2px;
+}
+
+.waiting {
+  padding: 0 0 30px 0;
+}
+
+
+.header p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header{ margin-bottom: 48px;}
+
+.header span {
+  color: #b3b2b2;
+  font-size: 1.2rem;
+}
+
+.container.center {
+  max-width: 650px;
+  margin: auto;
+}
+.container.middle {
+  max-width: 650px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.timeLeft {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.profilePic {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.profiles {
+  display: flex;
+  gap: 69px;
+  text-align: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+p.smallText {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+span.timeDetails {
+  color: #008EBE;
+  /* font-size: 16px; */
+  padding-left: 8px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.reg {
+  font-size: 22px;
+}
+
+.slider {
+  background-color: #f2eeee;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.report {
+  border: none;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+.report img{
+  margin-right: 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+
+.exit {
+  padding-inline: 15px;
+  padding-block: 5px;
+  border: none;
+  padding: 10px 20px;
+  width: 102px;
+  border-radius: 6px;
+  margin-left: 10px;
+  background-color: #F3F3F3;
+}
+
+.exit img{
+  margin-right: 10px;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}
+.col-md-6.listen {
+  justify-content: end;
+  text-align: right;
+  padding-top: 48px;
+}
+p.fs-5.textP {
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+p.smallTextGray {
+  font-size: 14px;
+  color: #666;
+  padding-top: 10px;
+}
+
+.col-md-6.listen p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profilesOne {
+  display: flex;
+  align-items: center;
+}
+
+.profilesOne .profilePic {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-right: 25px;
+}
+
+.profilesOne p {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.featured {
+  display: flex;
+  justify-content: end;
+}
+
+.listen {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.listen img {
+  width: 2rem;
+  height: 1rem;
+  margin-top: 6px;
+}
+
+.mute {
+  border: none;
+  background-color: transparent;
+
+}
+
+.footer .link {
+  text-decoration: none;
+  color: #008EBE;
+}
+
+.resources p {
+  font-size: 1.2rem;
+}
+
+.resources {
+  padding-bottom: 30px;
+}
+
+.session-timer-container {
+  position: relative;
+}
+
+.session-timer-alert {
+  position: fixed;
+  top: 120px;
+  left: 430px;
+  width: 45%;
+  background-color: rgba(246, 65, 65, 0.8);
+  padding: 10px;
+  text-align: center;
+  z-index: 1000; /* Ensure the alert is on top of other content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.alert-dismiss-button {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.alert-dismiss-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* styles.css or your global CSS file */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
+
+/* Styles for the fixed bottom bar */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  background-color: #fff; /* Adjust background color as needed */
+  /* display: flex;
+  align-items: center; 
+  justify-content: center; */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+/* Add padding to the bottom of the main content container */
+.main-content {
+  padding-bottom: 200px; /* Adjust to be slightly more than the height of the bottom bar */
+}
+
+.audio {
+  margin-top: 15px;
+  margin-left: 430px;
+}
+
+
+@media (max-width: 576px) {
+
+  .logo {
+    width: 6rem;
+    height:6rem;
+  }
+
+  .icon {
+    width: 16px; /* Adjust icon size for smaller screens */
+    height: 16px;
+  }
+
+  .report,
+  .exit {
+    font-size: 0.8rem; /* Smaller font size for buttons on mobile */
+    padding: 0.5rem .25rem 0.5rem; /* Adjust padding */
+  }
+
+  .d-flex.gap-2 {
+    gap: 0.5rem; /* Smaller gap between buttons */
+  }
+
+  .header .title {
+    font-size: 1.25rem;
+  }
+
+  .subHeader h4 {
+    font-size: 0.9rem;
+  }
+  .discuss {
+    width: 100%;
+  }
+
+  .details p,
+  .subFooter p {
+    font-size: 0.8rem;
+  }
+
+  .registerBox {
+    font-size: 0.8rem;
+  }
+
+  .note {
+    font-size: 0.75rem;
+  }
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .boldText, .smallText, .timeDetails {
+    font-size: 0.9rem;
+  }
+
+  .registerBox {
+    font-size: 0.8rem;
+  }
+
+  .headline {
+    font-size: 1.25rem;
+  }
+
+  p.bold {
+    font-size: 1.5rem;
+  }
+  .featured {
+    display: flex;
+    justify-content: center;
+  }
+
+  .featuredImg {
+    width: 350px;
+    object-fit: cover;
+  }
+  p.info {
+    font-size: 15px;
+  }
+
+  .profilesOne {
+    align-items: center;
+    text-align: center;
+  }
+
+  .profilesOne p {
+    font-size: 18px;
+  }
+
+  .header, .waiting, .subSection {
+    text-align: center;
+  }
+
+  .profilePic {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .textInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .report img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .joinButton {
+    width: auto;
+    padding-block: 11px;
+  }
+  .bottom-bar {
+    height: 120px; /* Adjust height for smaller screens */
+  }
+
+  .audio {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .prefBox {
+    width: 100%;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .heroBold {
+    font-size: 1.3rem;
+  }
+
+  .prefHeader {
+    margin: 20px 0;
+ }
+
+ .preferences {
+  margin: 10px 0;
+}
+
+.prefText {
+  font-size: 0.9rem;
+}
+
+.selectButtons {
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 7rem;
+    height:7rem;
+  }
+
+  .icon {
+    width: 20px; /* Adjust icon size for smaller screens */
+    height: 20px;
+  }
+
+  .report,
+  .exit {
+    font-size: 0.8rem; /* Smaller font size for buttons on mobile */
+    padding: 0.5rem .25rem 0.5rem; /* Adjust padding */
+  }
+  .report img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .d-flex.gap-2 {
+    gap: 0.5rem; /* Smaller gap between buttons */
+  }
+
+  .header .title {
+    font-size: 1.5rem;
+  }
+
+  .subHeader h4 {
+    font-size: 1rem;
+  }
+
+  .details p,
+  .subFooter p {
+    font-size: 0.9rem;
+  }
+
+  .registerBox {
+    font-size: 0.9rem;
+  }
+
+  .note {
+    font-size: 0.8rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .boldText, .smallText, .timeDetails {
+    font-size: 1rem;
+  }
+
+  .registerBox {
+    font-size: 0.9rem;
+  }
+
+  .headline {
+    font-size: 1.5rem;
+  }
+
+  p.bold {
+    font-size: 2rem;
+  }
+
+  .featured {
+    display: flex;
+    justify-content: center;
+  }
+  .featuredImg {
+    width: 350px;
+    object-fit: cover;
+  }
+  p.info {
+    font-size: 20px;
+  }
+
+  
+
+  .profilesOne .profilePic {
+    width: 3.5rem;
+    height: 3.5rem;
+    /* margin-right: 0;
+    margin-bottom: 15px; */
+  }
+
+  .profilesOne p {
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
+
+  .header, .waiting, .subSection {
+    text-align: center;
+  }
+
+  .textInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .joinButton {
+    width: auto;
+    padding-block: 11px;
+  }
+
+  .bottom-bar {
+    height: 120px; /* Adjust height for smaller screens */
+  }
+
+  .audio {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  .prefBox {
+    width: 100%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .heroBold {
+    font-size: 1.4rem;
+  }
+
+  .prefHeader {
+    margin: 30px 0;
+ }
+
+ .preferences {
+  margin: 15px 0;
+}
+.prefText {
+  font-size: 1rem;
+}
+
+.selectButtons {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+}
+
